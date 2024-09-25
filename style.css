@@ -1,0 +1,100 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin: 0;
+    background-color:var(--color-main);
+
+}
+
+button{
+    cursor: pointer;
+}
+
+/**********************/
+/* KLEUREN */
+/**********************/
+:root{
+    --color-main:white;
+    --color-text:rgba(0,137,82,255);
+    --color-background:rgba(7,71,30,255);
+    --color-text-dark:rgba(255, 194, 13, 1)
+
+
+}
+@media (prefers-color-scheme:dark){
+    :root {
+        --color-main: black;
+
+    }
+}
+
+/********************/
+/* NAVIGATIE */
+/********************/
+
+nav{
+background-color:var(--color-background);
+top:0;
+z-index:10;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+nav > a{
+    color:var(--color-main);
+    display:block;
+    width: fit-content;
+    padding:.75em 0 .75em 1.75em;
+}
+
+nav a:hover{
+    color:var(--color-text);
+}
+/******************************/
+/**** eerste 3 plaatjes  *****/
+/****************************/
+
+main img{
+    width: 10em;
+    display: flex;
+    justify-content: left ;
+}
+
+/***************************/
+/*******box met linkjes ****/
+/***************************/
+
+article{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+article > img{
+    width: 12em;
+}
+
+
+section{
+    display: flex;
+    justify-content: space-around;
+    background-color:var(--color-background);
+    overflow-x: scroll;
+    
+}
+
+div{
+    color:var(--color-main);
+    margin-right: 3em;
+    font-size: medium;
+    
+}
+
+h2 a {
+    color:var(--color-main);
+    text-decoration: none;
+}
+
+    
