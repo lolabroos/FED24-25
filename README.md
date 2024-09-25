@@ -22,8 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
-  responsive
+  Ik heb gekozen om de pagina's responsive te maken
  
 </details>
 
@@ -34,11 +33,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Je website
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>
+  Voor deze school opdracht voor het vak Frontend Development moet ik een website gaan na maken. Hiervan moet ik de home-pagina en een detail pagina maken. Het basis voormaat voor de site is een telefoon formaat. voor deze opdracht heb ik keuze uit 2 uitgang punten. Ik kan kiezen om de site responsive te maken of survace plane te maken (dit houd in dat de focus op animatie ligt). 
+  </summary>
 
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  Ik ga de website subway namaken, voor de detail pagina heb ik gekozen voor "jouw perfecte sub pagina". 
   https://www.subway.com/nl-NL/
+  https://www.subway.com/nl-NL/MenuNutrition/Menu/BreadsAndToppings
+  
   
 
   #### Screenshot(s) van de eerste pagina (small screen): 
