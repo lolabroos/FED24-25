@@ -8,7 +8,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-
+<!-- in read me toevoegen wat je wou toevoegen maar geen tijd voor had -->
 
 ## Jij
 
@@ -23,6 +23,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Je focus:
   hier je focus (kies uit responsive óf surface plane)
+  responsive
  
 </details>
 
@@ -37,6 +38,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://www.subway.com/nl-NL/
+  
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  

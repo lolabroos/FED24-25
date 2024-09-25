@@ -97,4 +97,7 @@ h2 a {
     text-decoration: none;
 }
 
+footer img{
+    z-index: -1;
+}
     
