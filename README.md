@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw
 
   #### Je focus:
-  Ik heb gekozen om de pagina's responsive te maken
+  Ik heb gekozen om de pagina's responsive te maken.
  
 </details>
 
@@ -42,16 +42,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ik ga de website subway namaken, voor de detail pagina heb ik gekozen voor "jouw perfecte sub pagina". 
   https://www.subway.com/nl-NL/
   https://www.subway.com/nl-NL/MenuNutrition/Menu/BreadsAndToppings
-  
+
   
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="![Subway home pagina](img/screenshot-page1.JPG)" width="375px" alt="screenshot van de homepagina van Subway">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="![Subway detail pagina](img/screenshot-page2.JPG)" width="375px" alt="screenshot van subway pagina over alle toppings en broodjes.">
  
 </details>
 

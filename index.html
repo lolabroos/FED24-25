@@ -5,53 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subway</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-<nav>
+<!-- NAVIGATIE-->
+<header>
+    <h1> <a href="index.html"> <img src="img/subway-logo-new.png" alt="Logo van subway"></a></h1>
     
-    <ul>
-        <li> <h1> <a href="index.html"> <img src="img/subway-logo-new.png" alt="Logo van Subway"></a> </h1> </li>
-        <li><a href="#"><img src="https://www.subway.com/~/icon/flags/24x24/flag_Netherlands.PNG" alt="verander de taal"></a></li>
-        <li> <a href="#">Menu en voeding</a> </li>
-        <li> <a href="#">Catering</a> </li>
-        <li> <a href="#">Social</a> </li>
-        <li> <a href="#">Contact</a> </li>
-        <li> <a href="#">Over ons</a> </li>
-        <li> <a href="#">Een franchise beginnen</a> </li>
-    </ul>
-
-</nav>
+    <nav>
+        <ul>
+            <li><a href="#">Zoek een restaurant</a></li>
+            <li><a href="#">Menu en voeding</a></li>
+            <li><a href="#">Catering</a></li>
+            <li><a href="#">Social</a></li>
+            <li><a href="#">Over ons</a></li>
+            <li><a href="#">Carrière</a></li>
+            <li><a href="#"> Een franchise beginnen</a></li>
+        </ul>
+    </nav>
+</header>
 <main>
     <!-- alt toevoegen-->
-    <!--3 bewegende plaatjes-->
-    <section>
-        <div class="carousel">
-            <button class="carousel-button prev"> &#8656;</button>
-            <button class="carousel-button next"> &#8658;</button>
+    <!--CAROUSEL-->
+    <!--Bron: https://webdesign.tutsplus.com/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734t-->
+    <div class="slider-wrapper">
+        <button class="slide-arrow" id="slide-arrow-prev">
+          &#8249;
+        </button>
+        <button class="slide-arrow" id="slide-arrow-next">
+          &#8250;
+        </button>
+        <div class="slides-container" id="slides-container">
 
-            <ul>
-                <li class="slide" data-active>
-                    <img src="img/Wild-and-Mild.png" alt="nieuwe wild&mild subs: furious chicken en tasty tantoori"> 
-                </li>
-                <li class="slide">
-                    <img src="img/Footlong-Sidekicks.png" alt="de footlong sidekicks: 2 footlong dippers; 1 kaas en 1 kaas met pepperoni. De footlong churro en de footlong cookie">
-                </li>
-                <li class="slide">
-                    <img src="img/Daily-Deals.png" alt="Subway daily deals: 15cm Subs voor 3 euro 49">
-                </li>
-            </ul>
+          <div class="slide"><img src="img/Wild-and-Mild.png" alt="probeer nu de nieuwe mild&wild furios chickenen tasty tandori"></div>
+          <div class="slide"><img src="img/Footlong-Sidekicks.png" alt="Onze foodlong sidekicks: de footlong cookie (chocolate chip), de footlong churro, de footlong cheese dipper en de footlong cheesedipper met pepperoni"></div>
+          <div class="slide"><img src="img/Daily-Deals.png" alt="De Subway daily deals. een 15cm sub voor 3 euro 49"></div>
+
         </div>
-    </section>
-
+    </div>
 
     <!--scrolbar-->
+
 <section>
     <article>
     <div>
     <h2> <a href="detail-pagina.html">jouw perfecte sub</a></h2>
-    <p>stem hem samen precies zoals jij dat wil</p>
+    <p><a href="detail-pagina.html">Stel hem samen precies zoals jij dat wil!</a></p>
     </div>
-    <img src="img/JouwPerfecteSub.png" alt="foto met een sub broodje waar bij staat creëer jouw perfecte Sub!">
+    <a href="index.html"><img src="img/JouwPerfecteSub.png" alt="foto met een sub broodje waar bij staat creëer jouw perfecte Sub!"></a>
     </article>
 
     <article>
@@ -60,7 +61,7 @@
         https://www.wikihow.com/Add-a-Registered-Symbol-in-HTML#:~:text=In%20PHP%2C%20Perl%2C%20or%20Ruby,Docs%3A%20Type%20(r)%20. -->
     <p> Laat SUBWAY &reg; restraurants vandaag nog jouw catering verzorgen!</p>
     </div>
-    <img src="img/catering.png" alt="foto met meerdere belegde subway broodjes">
+    <a href="#"><img src="img/catering.png" alt="foto met meerdere belegde subway broodjes"></a>
     </article>
 
     <article>
@@ -68,7 +69,7 @@
     <h2>Feedback</h2>
     <p>Hoe heb jij je restaurantbezoek ervaren? Vertel het ons!</p>
     </div>
-    <img src="img/cookie_NL.png" alt="foto van een chocolate chip cookie waar bij staat kassabon+feedback = cookie ">
+    <a href="#"><img src="img/cookie_NL.png" alt="foto van een chocolate chip cookie waar bij staat kassabon+feedback = cookie "></a>
     </article>
 
     <article>
@@ -76,15 +77,14 @@
     <h2>vers gebakken brood</h2>
     <p>De basis van elke goede Sub.</p>
     </div>
-    <img src="img/fresh-bread.png" alt="twee halfe sub broodjes">
+    <a href="#"></a><img src="img/fresh-bread.png" alt="twee halfe sub broodjes">
     </article>
 </section>
 
 <!--franchise -->
 
     <article>
-        <h2>EEN FRANCHISE BEGINNEN MELD JE VANDAAG NOG AAN!</h2>
-        <img src="https://www.subway.com/-/media/Netherlands/Images/SUBW5118_268x101_ownafranchise_3.jpg?la=nl-nl&hash=8481CFF708FB481C6DCE87537375ADCF" alt="">
+        <h2><img src="img/franschise.png" alt="Een franchise beginnen meld je vandaag nog aan!"></h2>
         <button>Lees verder</button>
     </article>
 
@@ -133,6 +133,7 @@
     </article>
     </footer>
 
-    <script src="script.js"></script>
+     <script src="script.js"></script>
+ 
 </body>
 </html>

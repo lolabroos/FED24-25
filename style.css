@@ -23,129 +23,158 @@ button{
 /* KLEUREN */
 /**********************/
 :root{
-    --color-main:white;
-    --color-text:rgba white ;
-    --color-background:rgba(7, 71, 30, 255);
-    --color-textclick:rgba(255, 194, 13, 1);
+    --color-background: white;
+    --color-main: rgba(0,137,82,255); /* lichtgroen */
+    --color-secundaire: rgba(3,98,48,255); /* donkergroen */
 
+    --color-text-main: rgba(122,122,122,255); /* grijs */
+    --color-text-secundaire:var(var(--color-background)); /* wit */
+    --color-text-headings:var(var(--color-main)); /* lichtgroen*/ 
+    
+    --color-button: rgba(239,182,2,255); /* geel */
+    --color-focus: rgba(239,182,2,255); /* geel */
+    --color-focus-button: rgba(3,98,48,255); /* donkergroen */
 }
-
+P{
+    color:var(--color-text-main);
+}
 
 /********************/
 /* NAVIGATIE */
 /********************/
 
-nav{
+header{
+    background-color:var(--color-background);
 
-background-color:var(--color-background);
-top:0;
-z-index:10;
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-grid-column-start: 1/-1; /* dit is start en end in 1 regel */
+    position: sticky;
+    top:0;
+    z-index:10;
+
+    display: flex;
+    flex-wrap: wrap; /* element wordt op meerdere lijnen gewikkeld */
+    justify-content: center;
+
 }
 
-nav a, h1{
-    color:var(--color-main);
-    outline: none;
-    text-decoration: none;
+header > h1 {
     display: block;
-    text-align: center;
-   
- 
+    width: 7.5em;
 }
 
-nav ul{
+header > h1:focus{
+    outline: 2px solid var(--color-focus);
+}
+  
+header nav{
+    background-color:var(--color-background); 
+    flex-grow:1;
+}
 
+header nav ul{
+    margin: 0;
+    padding: 0;
     list-style: none;
+
     display: flex;
     gap: 1px;
 }
 
-nav li{
-    min-height:6em;
-    flex-grow:1;
+header nav li {
+    min-width: 6em;
+    flex-grow: 1;
 }
 
-nav a:hover{
-    color:var(--color-textclick);
-}
-/******************************/
-/**** eerste 3 plaatjes  *****/
-/****************************/
-.carousel {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    list-style: none;
-}
+header nav a{
+    background-color:var(--color-main);
+    text-decoration: none;
+    outline: none;
+    color:var(--color-background);
 
-.slide{
-    position: absolute;
-    inset: 0;
-    opacity: 0;
-}
-
-.slide > img {
     display: block;
+    line-height: 3.5em;
+    text-align: center;
+}
+
+header nav a:focus{
+    text-decoration:underline;
+    outline: solid 2px var(--color-focus);
+}
+
+/******************************/
+/**** CAROUSEL *****/
+/**** Bron: https://webdesign.tutsplus.com/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734t                      ***/
+/****************************/
+
+.slider-wrapper {
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slides-container {
+    height: calc(100vh - 2rem);
+    width: 100%;
+    display: flex;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slide-arrow {
+    position: absolute;
+    display: flex;
+    top: 2em;
+    margin: auto;
+    height: 4rem;
+    background-color: white;
+    border: solid 2px black;
+    width: 2rem;
+    font-size: 3rem;
+    padding: 0;
+    opacity: 0.5;
+    transition: opacity 100ms;
+    cursor: pointer;
+  }
+  
+  .slide-arrow:hover,
+  .slide-arrow:focus {
+    opacity: 1;
+  }
+  
+  #slide-arrow-prev {
+    left: 0;
+    padding-left: 0.25rem;
+    border-radius: 0 2rem 2rem 0;
+  }
+  
+  #slide-arrow-next {
+    right: 0;
+    padding-left: 0.75rem;
+    border-radius: 2rem 0 0 2rem;
+  }
+  
+  .slide {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    margin-left: -10em;
+    flex: 1 0 100%;
+  }
+  
+  .slides-container {
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
 }
 
-.slide[data-active] {
-    opacity: 1;
+.slides-container::-webkit-scrollbar { 
+    width: 0;
+    height: 0;
 }
 
-.carousel-button {
-    position: absolute;
-    background: none;
-    border: none;
-    font-size: 4rem;
-    top: 50%;
-    z-index: 2;
-    transform: translateY(-50%);
-    color:var(--color-main);
-    border-radius: .25em;
-    padding: 0 .5rem;
-    background-color: rgba(0, 0, 0, .1);
-
-}
-
-.carousel-button:hover, .carousel-button:focus {
-    color:var(--color-background);
-    background-color: rgba(0, 0, 0, .2);
-}
-
-.carousel-button:focus{
-    outline: 5px solid var(--color-main);
-}
-
-.carousel-button.prev {
-    left: 1rem;
-}
-
-.carousel-button.next {
-    right: 1rem;
-}
-
-/*
-h2:has(img){
-    max-width: 8em;
-
-    z-index: 2;
-}
-*/
 /***************************/
-/*******box met linkjes ****/
+/*******scrollbar ****/
 /***************************/
 
-article:first-child {
-    grid-column-start: 1/-1; /*dit is start en end in een regel*/
-    
-}
 
 article{
     display: flex;
@@ -156,39 +185,65 @@ article{
 article > img{
     width: 12em;
 }
-article:last-of-type {
-   display: flex;
-   flex-direction: column;
 
-}
-/*
+
 section{
     display: flex;
     justify-content: space-around;
     background-color:var(--color-background);
     overflow-x: scroll;
     
+    
 }
-*/
+
 div{
     color:var(--color-main);
     margin-right: 3em;
     font-size: medium;
     
 }
-
+p a{
+    color:var(--color-text-main);
+    text-decoration-line: none;
+}
 h2 a {
     color:var(--color-main);
     text-decoration: none;
 }
+
+
+/***************************/
+/*** FRANCHISE BEGINNEN  ***/
+/***************************/
+
+article:nth-of-type(5){
+display: block;
+justify-content: left;
+background-color:var(--color-secundaire);
+
+}
+
+
 /***************************/
 /*** FOOTER  ***************/
 /***************************/
 
-    
-article:has(footer){
+footer{
+    background-image: url('img/footer_bg_us 2.png');
+    color:var(--color-text-main);
     display: grid;
-   grid-template-columns:repeat(auto-fit, minmax(10em, 1fr));
-   gap: 1em;
+    grid-template-columns: 1fr;
+    padding: 1em;
 
+
+}
+
+footer article{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+footer a{
+    text-decoration: none;
+    color:var(--color-text-main);
 }
