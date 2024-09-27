@@ -216,13 +216,13 @@ h2 a {
 /*** FRANCHISE BEGINNEN  ***/
 /***************************/
 
-article:nth-of-type(5){
+article:nth-child(7){
 display: block;
-justify-content: left;
-background-color:var(--color-secundaire);
-
+justify-content: center;
+font-size: smaller;
 }
 
+ 
 
 /***************************/
 /*** FOOTER  ***************/
