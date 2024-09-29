@@ -190,7 +190,7 @@ article > img{
 section{
     display: flex;
     justify-content: space-around;
-    background-color:var(--color-background);
+    background-color:var(--color-main);
     overflow-x: scroll;
     
     
@@ -203,7 +203,7 @@ div{
     
 }
 p a{
-    color:var(--color-text-main);
+    color:var(--color-background);
     text-decoration-line: none;
 }
 h2 a {
@@ -229,21 +229,37 @@ font-size: smaller;
 /***************************/
 
 footer{
-    background-image: url('img/footer_bg_us 2.png');
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    height: fit-content;
     color:var(--color-text-main);
-    display: grid;
-    grid-template-columns: 1fr;
     padding: 1em;
+    /* background-color: red; */
 
 
 }
 
 footer article{
-    display: grid;
+    position: relative;
+
+    outline: solid;
+/*    display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    */
 }
 
 footer a{
     text-decoration: none;
     color:var(--color-text-main);
+}
+
+footer img{
+    position: absolute;
+    width: 100%;
+    inset: 0;
+    /* outline: solid green; */
+
 }
