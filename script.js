@@ -1,17 +1,24 @@
-const slidesContainer = document.getElementById("slides-container");
-const slide = document.querySelector(".slide");
-const prevButton = document.getElementById("slide-arrow-prev");
-const nextButton = document.getElementById("slide-arrow-next");
+var openButton = document.querySelector("header > button");
+openButton.onclick = openMenu;
 
-nextButton.addEventListener("click", () => {
-  const slideWidth = slide.clientWidth;
-  slidesContainer.scrollLeft += slideWidth;
-});
+function openMenu() {  
+  var deNav = document.querySelector("nav");
+  deNav.classList.add("toonMenu");
+}
 
-prevButton.addEventListener("click", () => {
-  const slideWidth = slide.clientWidth;
-  slidesContainer.scrollLeft -= slideWidth;
-});
+var sluitButton = document.querySelector("nav button");
+sluitButton.onclick = sluitMenu;
 
+function sluitMenu() {
+  var deNav = document.querySelector("nav");
+  deNav.classList.remove("toonMenu");
+}
 
-//bron: https://webdesign.tutsplus.com/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734t
+window.onkeydown = handleKeydown;
+
+function handleKeydown(event) {
+  if (event.key == "Escape") {
+    var deNav = document.querySelector("nav");
+    deNav.classList.remove("toonMenu");
+  }
+}
