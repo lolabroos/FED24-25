@@ -92,6 +92,9 @@ nav a{
     display: flex;
     align-items: center;
     column-gap: .25em;
+    color:var(--color-text-secundaire);
+    text-decoration: none;
+
 }
 
 @media (min-width:38em){
@@ -117,7 +120,6 @@ nav ul{
 nav a{
     flex-direction: column;
     border: none;
-    color:var(--color-text-secundaire);
 }
 }
 @media (min-width:57em) {
