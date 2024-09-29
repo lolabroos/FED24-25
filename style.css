@@ -92,9 +92,8 @@ nav a{
     display: flex;
     align-items: center;
     column-gap: .25em;
-    color:var(--color-text-secundaire);
+    color: white;
     text-decoration: none;
-
 }
 
 @media (min-width:38em){
@@ -137,7 +136,8 @@ nav a{
 /*******scrollbar ****/
 /***************************/
 
-         sd dsa         
+
+        
 article{
     display: flex;
     justify-content: center;
