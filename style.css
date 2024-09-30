@@ -18,6 +18,10 @@ main{
 button{
     cursor: pointer;
 }
+
+a{
+    cursor: pointer;
+}
 /***********************/
 /*      STATES         */
 /***********************/
@@ -104,6 +108,7 @@ header{
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 9999;
 }
 nav.toonMenu{
     translate: 0% 0%;
@@ -168,6 +173,110 @@ nav a{
 /******************************/
 /**** CAROUSEL *****/
 
+.caroCarrousel {
+
+  position: relative;
+  overflow: hidden;
+	outline:none;
+}
+
+.caroCarrousel > ul {
+  margin: 0; padding: 0;
+  list-style: none;
+	display: flex;
+	overflow: hidden;
+
+  scroll-snap-type: inline mandatory;
+	scroll-behavior: smooth;
+
+  -webkit-overflow-scrolling: touch; /* voor iOS*/
+  -ms-overflow-style: none; /* voor IE */
+	scrollbar-width: none; /* voor firefox */
+}
+
+.caroCarrousel > ul::-webkit-scrollbar {
+  display: none; 
+}
+
+.caroCarrousel > ul li {
+  flex-basis: 100%;
+  flex-shrink: 0;
+	scroll-snap-align:center;
+}
+
+.caroCarrousel > ul li > img {
+  display: block;
+  width: 100%;
+}
+
+.caroCarrousel > a {
+  position: absolute;
+  width: 3em;
+  aspect-ratio:1/1;
+	top: calc(50% - 1.5em);
+  
+  color: var(--color-button);
+  background-color: var(--color-text-main);
+  outline: none;
+	box-shadow: inset 0 0 0 1px currentColor;
+	
+  display:grid;
+  place-items:center;
+  
+  transition: 0.5s;
+}
+
+/* initieel staan de links "buiten beeld" */
+.caroCarrousel > a[href="previous"] {
+  left:-3.5em;
+}
+.caroCarrousel > a[href="next"] {
+  right: -3.5em;
+}
+
+/* bij hover en focus schuiven de links in beeld */
+.caroCarrousel:hover > a[href="previous"],
+.caroCarrousel:focus-within > a[href="previous"] {
+  left:.5em;
+}
+.caroCarrousel:hover > a[href="next"],
+.caroCarrousel:focus-within > a[href="next"] {
+  right:.5em;
+}
+
+/* prev en next linkbuttons pijltjes */
+.caroCarrousel > a::before,
+.caroCarrousel > a::after {
+  content: "";
+  position: absolute;
+  width: 1em; height: 4px;
+  background-color: currentColor;
+}
+
+.caroCarrousel > a[href=previous]::before {
+	transform-origin: 2px center;
+	transform: translateY(0) rotate(45deg);
+}
+.caroCarrousel > a[href=previous]::after {
+	transform-origin: 2px center;
+	transform: translateY(0) rotate(-45deg);
+}
+
+.caroCarrousel > a[href=next]::before {
+	transform-origin: calc(100% - 2px) center;
+	transform: translateY(0) rotate(45deg);
+}
+.caroCarrousel > a[href=next]::after {
+	transform-origin: calc(100% - 2px) center;
+	transform: translateY(0) rotate(-45deg);
+}
+
+.caroCarrousel > a:hover,
+.caroCarrousel > a:focus {
+  color: var(--caroCarrouselAccentColor);
+}
+
+
 
 /***************************/
 /*******scrollbar ****/
@@ -189,11 +298,13 @@ article > img{
 section{
     display: flex;
     justify-content: space-around;
-    background-color:var(--color-main);
+    background-color:var(--color-background);
     overflow-x: scroll;
+    border: 1px solid black;
     
     
 }
+
 
 div{
     color:var(--color-main);
@@ -215,10 +326,22 @@ h2 a {
 /*** FRANCHISE BEGINNEN  ***/
 /***************************/
 
-article:nth-child(7){
-display: block;
-justify-content: center;
-font-size: smaller;
+h2 img{
+    display: flex;
+    background-color:var(--color-secundaire);
+    border: solid 2em var(--color-secundaire);
+    
+}
+
+button:last-child{
+font-weight: bold;
+background-color:var(--color-button);
+border-radius: 10px;
+width:5em;
+height: 3em;
+margin-left: -16em;
+margin-top: 8em;
+
 }
 
  
@@ -237,28 +360,37 @@ footer{
     color:var(--color-text-main);
     padding: 1em;
     /* background-color: red; */
+    z-index: -1;
 
 
 }
 
 footer article{
     position: relative;
+    padding: 5em;
+    margin-top: 5em;
+    display: grid;
 
-    outline: solid;
-/*    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    */
+}
+
+@media (max-width:50em) {
+    footer article {
+        flex-direction:column;
+    }
+
 }
 
 footer a{
     text-decoration: none;
     color:var(--color-text-main);
+    text-decoration: underline;
+    margin-top: .5em;
+
 }
 
 footer img{
     position: absolute;
     width: 100%;
     inset: 0;
-    /* outline: solid green; */
 
 }
