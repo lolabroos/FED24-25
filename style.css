@@ -172,6 +172,7 @@ nav a{
 
 /******************************/
 /**** CAROUSEL *****/
+/* Bron: https://codepen.io/shooft/pen/mdBOZLz?editors=0010 */
 
 .caroCarrousel {
 
@@ -189,9 +190,9 @@ nav a{
   scroll-snap-type: inline mandatory;
 	scroll-behavior: smooth;
 
-  -webkit-overflow-scrolling: touch; /* voor iOS*/
-  -ms-overflow-style: none; /* voor IE */
-	scrollbar-width: none; /* voor firefox */
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none; 
+	scrollbar-width: none;
 }
 
 .caroCarrousel > ul::-webkit-scrollbar {
@@ -325,8 +326,9 @@ h2 a {
 
 h2 img{
     display: flex;
+    margin-left: -5em;
     background-color:var(--color-secundaire);
-    border: solid 2em var(--color-secundaire);
+    border: solid 50px var(--color-secundaire);
     
 }
 
@@ -355,7 +357,6 @@ footer{
     width: 100%;
     height: fit-content;
     color:var(--color-text-main);
-    padding: 1em;
     /* background-color: red; */
     z-index: -1;
 
@@ -364,8 +365,8 @@ footer{
 
 footer article{
     position: relative;
-    padding: 5em;
-    margin-top: 5em;
+    padding: 2em;
+    margin-top: 1em;
     display: grid;
 
 }

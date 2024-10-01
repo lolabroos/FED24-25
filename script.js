@@ -25,6 +25,7 @@ function handleKeydown(event) {
 }
 
 //carousel 
+//Bron: https://codepen.io/shooft/pen/mdBOZLz?editors=0010
 
 function createCaroCarrousel(carrouselID) {
 	let carrousel = document.querySelector("#"+carrouselID);
