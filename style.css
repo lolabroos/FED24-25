@@ -8,13 +8,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color:var(--color-text);
 }
-/*
-main{
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    gap:1em;
-}
-*/
+
 button{
     cursor: pointer;
 }
@@ -36,13 +30,7 @@ button:active{
     border: solid 3px var(--color-focus);
 }
 
-:active{
-    color:var(--color-focus);
-}
 
-:hover{
-    color:var(--color-secundaire);
-}
 
 nav a:hover{
     color:var(--color-button);
@@ -169,6 +157,58 @@ nav a{
     }
 }
 
+/***************************/
+/*** FOOTER  ***************/
+/***************************/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    color:var(--color-text-main);
+    /* background-color: red; */
+    z-index: -1;
+
+
+}
+
+footer article{
+    position: relative;
+    padding: 2em;
+    margin-top: 1em;
+    display: grid;
+
+}
+
+@media (max-width:50em) {
+    footer article {
+        flex-direction:column;
+    }
+
+}
+
+footer a{
+    text-decoration: none;
+    color:var(--color-text-main);
+    text-decoration: underline;
+    margin-top: .5em;
+
+}
+
+footer img{
+    position: absolute;
+    width: 100%;
+    inset: 0;
+
+}
+
+
+/*****************/
+/*** PAGINA 1 ****/
+/*****************/
 
 /******************************/
 /**** CAROUSEL *****/
@@ -298,7 +338,7 @@ section{
     justify-content: space-around;
     background-color:var(--color-background);
     overflow-x: scroll;
-    border: 1px solid black;
+    border: .5px solid black;
     
     
 }
@@ -332,7 +372,7 @@ h2 img{
     
 }
 
-button:last-child{
+article button:last-child{
 font-weight: bold;
 background-color:var(--color-button);
 border-radius: 10px;
@@ -343,52 +383,7 @@ margin-top: 8em;
 
 }
 
- 
+ /*****************/
+ /*** PAGINA 2  ***/
+ /*****************/
 
-/***************************/
-/*** FOOTER  ***************/
-/***************************/
-
-footer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: relative;
-    width: 100%;
-    height: fit-content;
-    color:var(--color-text-main);
-    /* background-color: red; */
-    z-index: -1;
-
-
-}
-
-footer article{
-    position: relative;
-    padding: 2em;
-    margin-top: 1em;
-    display: grid;
-
-}
-
-@media (max-width:50em) {
-    footer article {
-        flex-direction:column;
-    }
-
-}
-
-footer a{
-    text-decoration: none;
-    color:var(--color-text-main);
-    text-decoration: underline;
-    margin-top: .5em;
-
-}
-
-footer img{
-    position: absolute;
-    width: 100%;
-    inset: 0;
-
-}
