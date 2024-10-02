@@ -74,11 +74,13 @@ nav{
     translate:-100% 0%;
     transition:translate .3;
     background-color:var(--color-secundaire);
+    position: fixed;
 }
 
 header > button{
     order: -1;
     background-color:var(--color-button);
+
 }
 
 nav button{
@@ -96,6 +98,8 @@ header{
     justify-content: center;
     align-items: center;
     top: 0;
+    position: sticky;
+    z-index: 999999;
 }
 nav.toonMenu{
     translate: 0% 0%;
@@ -218,6 +222,7 @@ footer img{
   position: relative;
   overflow: hidden;
 	outline:none;
+
 }
 
 .caroCarrousel > ul {
