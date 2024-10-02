@@ -188,14 +188,20 @@ mijn nav bar werkt nog steeds niet en het lukt niet om mijn footer goed responsi
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
+  het ging uiteindelijk goed op flexbox te gebruiken en nu weet ik ook veel meer over flexbox en hoe ik dat beter kan gebruiken
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  <img src="readme-img/detail-groot.png" width="375px" alt="eigen website pagina groot formaat">
+  <img src="readme-img/detail-klein.png" width="375px" alt="eigen website pagina klein formaat">
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
+  wat mij niet is gelukt maar wel had willen toevoegen als ik meer tijd had was dat op de home pagina dat het franschishe hetzelfde was zoals bij de echte subway site, ik denk zelf dat ik de afbeelding had kunnen tonen door @media en dan min/max width te kunnen gebruiken. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  wat ik erg lastig vond was de carousel, ik had veel tutorials gevolgd en er kwam maar geen goede carousel uit die goed werkte en responsive was. uiteindelijk zag ik op teams een codepen van een carousel en heb ik die overgenomen, ik vind het nog steeds lastig maar ik snap de code wel. 
+
+  <img src="readme-img/franchise-groot.png" width="375px" alt="franschise op pagina groot">
+  <img src="readme-img/franschise-klein.png" width="375px" alt="franchise op pagina klein">
+  <img src="readme-img/carousel.png" width="375px" alt="Carousel op mijn eigen website">
 </details>
 
 
@@ -211,7 +217,7 @@ mijn nav bar werkt nog steeds niet en het lukt niet om mijn footer goed responsi
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
+  1. 
   2. bron 2
   3. ...
 
