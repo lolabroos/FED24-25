@@ -183,7 +183,7 @@ mijn nav bar werkt nog steeds niet en het lukt niet om mijn footer goed responsi
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="" width="375px" alt="uitomst opdracht 1 home pagina">
+  <img src="readme-img/eindpagina1.png" width="375px" alt="uitomst opdracht 1 home pagina">
   <img src="readme-img/eindpagina2.png" width="375px" alt="uitomst opdracht 1 detail pagina">
 
   ### Dit ging goed/Heb ik geleerd: 
