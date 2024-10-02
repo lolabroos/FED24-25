@@ -217,8 +217,8 @@ mijn nav bar werkt nog steeds niet en het lukt niet om mijn footer goed responsi
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. 
-  2. bron 2
-  3. ...
+  1. carousel codepen:https://codepen.io/shooft/pen/mdBOZLz?editors=0010
+  2. @media bron: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+  3. registered symbols bron; https://www.wikihow.com/Add-a-Registered-Symbol-in-HTML#:~:text=In%20PHP%2C%20Perl%2C%20or%20Ruby,Docs%3A%20Type%20(r)%20
 
 </details>
