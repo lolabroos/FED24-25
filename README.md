@@ -47,11 +47,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="![Alt text](readme-img/screenshot-page1.png)" width="375px" alt="screenshot van de homepagina van Subway">
+  <img src="readme-img/screenshot-page1.png" width="375px" alt="screenshot van de homepagina van Subway">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="![Alt text](readme-img/screenshot-page2.png)" width="375px" alt="screenshot van subway pagina over alle toppings en broodjes.">
+  <img src="readme-img/screenshot-page2.png" width="375px" alt="screenshot van subway pagina over alle toppings en broodjes.">
  
 </details>
 
@@ -99,8 +99,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
  ik heb mijn html voor mijn twee pagina's gemaatk
-    <img src="![Alt text](img/eigen-site-homew1.png)" width="375px" alt="home pagina">
-    <img src="![Alt text](img/eigen-site-detailw1.png)" width="375px" alt="detail pagina">
+    <img src="img/eigen-site-homew1.png" width="375px" alt="home pagina">
+    <img src="img/eigen-site-detailw1.png" width="375px" alt="detail pagina">
 
   ### Agenda voor meeting
   ik heb nog geen specefieke vragen omdat ik alleen nog maar de html heb
