@@ -51,6 +51,9 @@ nav a:hover{
     --color-button: rgba(239,182,2,255); /* geel */
     --color-focus: rgba(239,182,2,255); /* geel */
     --color-focus-button: rgba(3,98,48,255); /* donkergroen */
+    --color-button-1: rgba(16,130,175,255); /* licht blauw */
+    --color-button-2: rgba(222,56,5,255); /* oranje */
+    --color-button-3: rgba(255,194,12,255) /* button geel */
 }
 P{
     color:var(--color-text-main);
@@ -191,7 +194,7 @@ footer article{
 }
 
 footer a{
-    text-decoration: none;
+    text-decoration: underline;
     color:var(--color-text-main);
     text-decoration: underline;
     margin-top: .5em;
@@ -242,7 +245,7 @@ footer img{
 .caroCarrousel > ul li {
   flex-basis: 100%;
   flex-shrink: 0;
-	scroll-snap-align:center;
+  scroll-snap-align:center;
 }
 
 .caroCarrousel > ul li > img {
@@ -259,7 +262,7 @@ footer img{
   color: var(--color-button);
   background-color: var(--color-main);
   outline: none;
-	box-shadow: inset 0 0 0 1px currentColor;
+  box-shadow: inset 0 0 0 1px currentColor;
 	
   display:grid;
   place-items:center;
@@ -387,3 +390,78 @@ margin-top: 8em;
  /*** PAGINA 2  ***/
  /*****************/
 
+.page2 article{
+display: grid;
+justify-self: center;
+}
+
+.page2 h2{
+    margin-left: 0em;
+}
+
+
+
+.page2 h3{
+    color:var(--color-text-main);
+}
+
+.page2 article:nth-of-type(1) h2 {
+    color:var(--color-secundaire);
+}
+
+
+
+.page2 h2{
+    color:var(--color-main);
+}
+.page2 article:nth-of-type(1) h3 {
+    font-weight: 100;
+}
+
+.page2 article:nth-of-type(1) p {
+    margin-top: 1em;
+    margin-left: 0;
+    font-weight:bold;
+    color: dimgray;
+}
+
+
+.page2 img{
+ margin-top: 1em;
+ height: auto;
+ min-width: 100%;
+}
+
+.page2 ul{
+list-style: none;
+}
+
+.page2 li{
+color:dimgray;
+font-weight: 100;
+}
+
+.page2 button{
+    margin: 1em;
+    color: white;
+    padding: 10em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border: 1em solid whitesmoke;
+}
+
+.page2 section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.page2 button:nth-of-type(1){
+    background-color:var(--color-button-1);
+}
+.page2 button:nth-of-type(2){
+    background-color:var(--color-button-2);
+}
+.page2 button:nth-of-type(3){
+    background-color:var(--color-button-3);
+}
