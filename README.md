@@ -95,11 +95,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 1 (week 2)
 
 <details>
-  <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
+  <summary>uitwerken voor 1<sup>e</sup> voortgang</summary> 
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+ ik heb mijn html voor mijn twee pagina's gemaatk
+    <img src="![Alt text](img/eigen-site-homew1.png)" width="375px" alt="home pagina">
+    <img src="![Alt text](img/eigen-site-detailw1.png)" width="375px" alt="detail pagina">
 
   ### Agenda voor meeting
   ik heb nog geen specefieke vragen omdat ik alleen nog maar de html heb
@@ -123,22 +124,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  vragen over mijn navigatie bar en hoe ik de beter responive kan maken 
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+ - nog een keer de oefening maken en daar de oplossing vinden
 
 </details>
 
@@ -153,6 +143,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - bij de footer staat de tekst erg dichtbij elkaar
 
 </details>
 
