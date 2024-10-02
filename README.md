@@ -47,11 +47,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="![Subway home pagina](img/screenshot-page1.JPG)" width="375px" alt="screenshot van de homepagina van Subway">
+  <img src="![Alt text](readme-img/screenshot-page1.png)" width="375px" alt="screenshot van de homepagina van Subway">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="![Subway detail pagina](img/screenshot-page2.JPG)" width="375px" alt="screenshot van subway pagina over alle toppings en broodjes.">
+  <img src="![Alt text](readme-img/screenshot-page2.png)" width="375px" alt="screenshot van subway pagina over alle toppings en broodjes.">
  
 </details>
 
