@@ -23,14 +23,12 @@ button:focus{
     border: solid 3px var(--color-focus-button);
     }
 button:active{
-    color:var(--color-focus-button);
+    color:var(--colorn);
     }
 
 :focus{
     border: solid 3px var(--color-focus);
 }
-
-
 
 nav a:hover{
     color:var(--color-button);
@@ -179,7 +177,7 @@ footer{
 footer article{
     position: relative;
     padding: 2em;
-    margin-top: 1em;
+    margin-top: 2em;
     display: grid;
 
 }
