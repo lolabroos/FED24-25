@@ -53,6 +53,7 @@ nav a:hover{
     --color-button-2: rgba(222,56,5,255); /* oranje */
     --color-button-3: rgba(255,194,12,255) /* button geel */
 }
+
 P{
     color:var(--color-text-main);
 }
@@ -71,7 +72,7 @@ nav{
     right: 0;
     top: 0;
     bottom: 0;
-    translate:-100% 0%;
+    translate:-100% 0%; /* veranderd de h/v directie */
     transition:translate .3;
     background-color:var(--color-secundaire);
     position: fixed;
@@ -311,11 +312,6 @@ footer img{
 .caroCarrousel > a[href=next]::after {
 	transform-origin: calc(100% - 2px) center;
 	transform: translateY(0) rotate(-45deg);
-}
-
-.caroCarrousel > a:hover,
-.caroCarrousel > a:focus {
-  color: var(--caroCarrouselAccentColor);
 }
 
 
