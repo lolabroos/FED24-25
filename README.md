@@ -222,3 +222,24 @@ mijn nav bar werkt nog steeds niet en het lukt niet om mijn footer goed responsi
   3. registered symbols bron; https://www.wikihow.com/Add-a-Registered-Symbol-in-HTML#:~:text=In%20PHP%2C%20Perl%2C%20or%20Ruby,Docs%3A%20Type%20(r)%20
 
 </details>
+
+## Herkansing
+<details>
+  <summary>Feedback </summary>
+  - navigatie beter responsive maken
+  - tweede pagina visiueel verbeteren
+  - read me beter uitwerken voor de herkansing
+</details>
+
+<details>
+  <summary> Plan van aanpak </summary>
+  - Ik wil voor de navigatie de media min-width groter maken zodat het hamburger menu eerder komt. Ook wil ik de button in het hamburger menu doormidel van flexbox naar links zetten.
+  - op de homepagina wil ik de franschise button weer goed zetten.
+  - voor de detail pagina wil ik het mooier maken door alles vooral in hetmidden te zetten. ook wil ik de buttons minder groot maken.  
+</details>
+
+<details>
+  <summary> Navigatie </summary>
+  -   
+  <img src="readme-img/nieuwe-nav-width 2.png" width="375px" alt="Nieuwe nav width">
+</details>
