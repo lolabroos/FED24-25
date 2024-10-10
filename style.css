@@ -212,6 +212,10 @@ footer img{
 
 }
 
+footer h3{
+    margin-top: 1.5em;
+}
+
 
 /*****************/
 /*** PAGINA 1 ****/
@@ -380,10 +384,9 @@ font-weight: bold;
 background-color:var(--color-button);
 border-radius: 10px;
 width:5em;
-height: 3em;
-margin-left: -19.5em;
-margin-top: 9em;
-
+position: absolute;
+margin-top: 10em;
+margin-right: 10em;
 }
 
  /*****************/
