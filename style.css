@@ -398,6 +398,8 @@ display: grid;
 justify-self: center;
 }
 
+/* zet de article in section zodat het er ook uit ziet dat het nij elkaar hoort */
+
 .page2 h2{
     margin-left: 0em;
 }
