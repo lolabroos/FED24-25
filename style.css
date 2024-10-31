@@ -496,6 +496,7 @@ color: white;
     color: beige;
     margin-left: .5em; 
 }
+/* hierdoor is er op pagina 1 tekst beige */
 
 .page2 article h2{
     font-size: 3em;
@@ -513,10 +514,36 @@ color: white;
 
 }
 
+.page2 article:nth-of-type(4) img{
+    margin-left: -4em;
+}
+
+.page2 article:nth-of-type(5) img{
+    margin-left: -4em;
+}
+
+.page2 article:nth-of-type(2) p{
+    margin-left: 1em; 
+    }
+
+ .page2 article:nth-of-type(2) p{
+    margin-left: 1em; 
+    }
+    
+
+.page2 article:nth-of-type(4) h2, h3 ,p , li{
+margin-left: -1em;
+}
+
+.page2 article:nth-of-type(5) h2, h3 ,p , li{
+    margin-left: -1em;
+}
+
 .page2 article:nth-of-type(5){
     padding: 7em;
     margin-right: .7em;
 }
+
 
 
 .page2 img{
