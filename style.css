@@ -193,6 +193,7 @@ footer article{
 @media (max-width:50em) {
     footer article {
         flex-direction:column;
+        transition: 2s;
     }
 
 }
