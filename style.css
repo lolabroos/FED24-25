@@ -181,7 +181,6 @@ footer{
     width: 100%;
     height: fit-content;
     color:var(--color-text-main);
-    /* background-color: red; */
     z-index: -1;
 
 
@@ -198,7 +197,6 @@ footer article{
 @media (max-width:50em) {
     footer article {
         flex-direction:column;
-        transition: 2s;
     }
 
 }
@@ -616,7 +614,7 @@ margin-left: -1em;
 */
 
 /******************************/
-/* BEGIN VAN PAGE 2 GOEDE CSS */
+/* ARTICLES */
 /******************************/
 
 
@@ -653,6 +651,14 @@ margin-left: -1em;
     font-weight:bold;
     color:beige;
     margin-left: .5em;
+}
+
+.page2 article:nth-of-type(3){
+    background-color: rgb(109, 149, 69);
+}
+
+.page2 article:nth-of-type(4){
+    background-color: rgb(109, 149, 69);
 }
 
 .page2 article:nth-of-type(4) h2, :nth-child(4) p, :nth-child(4) ul, :nth-child(4) img{
@@ -695,8 +701,12 @@ font-weight: 100;
 color: beige;
 }
 
+/****************************/
+/*** BUTTONS ***************/
+/****************************/
+
 .page2 button{
-    flex: 1§;
+    flex: 1;
     margin: 1em;
     color: white;
     padding: 10em;
@@ -705,9 +715,11 @@ color: beige;
     border: .5em solid whitesmoke;
 }
 
-@media (max-width: 45em){
+@media (max-width: 75em){
     .page2 button{
        flex: 1 1 100%;
+       margin-left: 9em;
+       margin-right: 9em;
     }
 }
 

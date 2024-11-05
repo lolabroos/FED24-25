@@ -284,4 +284,30 @@ mijn nav bar werkt nog steeds niet en het lukt niet om mijn footer goed responsi
 <details>
   <summary> buttons op de 2de pagina </summary>
   om de buttons dezelfde lengte te maken heb ik flex:1; toegevoegd. Om het meer gesponsive te maken heb ik @media toegevoegd zodat het op een mooie groote de eerst volgende button naar beneden springt.
+
+  <img src="readme-img/buttons-eerst.png" width="375px" alt="buttons eerst detailpagian">
+  <img src="readme-img/buttons-na-flex-1.png" width="375px" alt="buttons na toevoegen flex 1">
+  <img src="readme-img/code-flex1.png" width="375px" alt="code van de buttons met flex 1">
+
+voor de @media had ik nog een twijfel of ik de max-width op 60em of 75em moest zetten. als ik het op 60 em zet zijn de buttons langer naast elkaar. alleen gaat de tekst in button dan op een bepaald moment onder elkaar staan. 
+
+als ik de max width op 75em zet gebeurt dat niet alleen zijn de buttons dan erg lang
+
+<img src="readme-img/buttons-met-60em@media.png" width="375px" alt="buttons met 60em max-width">
+<img src="readme-img/buttons-met-75em@media.png" width="375px" alt="buttons met 75em max-width">
+
+ik vond het beter om verder te gaan met 75em max-width. 
+
+om de buttons minder lang te maken had ik margin left en right toegevoegd, alleen kon ik dat maar tot en met 9em doen want bij 10em ging de tekst weer onder elkaar staan. 
+ik heb gebropeerd om om width en max-width toe te voegen maar toen kwam de tekst weer onder elkaar
+
+<img src="readme-img/buttons-max-widht.png" width="375px" alt="buttons met een max-width van 7em">
+<img src="readme-img/code-buttons-max-width.png" width="375px" alt="code van de buttons met max-width">
+
+ik heb daarom gekozen om margin te gebruiken omdat ik niet weet hoe ik het anders moet oplossen.
+
+<img src="readme-img/buttons-margin9-left-right.png" width="375px" alt="buttons met een margin van 9em aan de linker en rechter zijde">
+<img src="readme-img/code-margin9em-left-right.png" width="375px" alt="code van margin aan links en rechts van de buttons">
+
 </details>
+
