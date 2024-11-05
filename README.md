@@ -304,10 +304,12 @@ ik heb gebropeerd om om width en max-width toe te voegen maar toen kwam de tekst
 <img src="readme-img/buttons-max-widht.png" width="375px" alt="buttons met een max-width van 7em">
 <img src="readme-img/code-buttons-max-width.png" width="375px" alt="code van de buttons met max-width">
 
-ik heb daarom gekozen om margin te gebruiken omdat ik niet weet hoe ik het anders moet oplossen.
+Ik wou toen kiezen om margin toe te voegen maar toen ik nog een keer keek zag ik dat de tekst nog steeds onder elkaar
 
-<img src="readme-img/buttons-margin9-left-right.png" width="375px" alt="buttons met een margin van 9em aan de linker en rechter zijde">
+<img src="readme-img/buttons-9em-tel.png" width="375px" alt="buttons met een margin van 9em aan de linker en rechter zijde">
 <img src="readme-img/code-margin9em-left-right.png" width="375px" alt="code van margin aan links en rechts van de buttons">
+
+-door dit heb ik er voor gekozen om ook de margin weg te halen nu zijn de buttons wel wat langer maar ik weet niet hoe ik dat moet verberteren. 
 </details>
 
 <details> 

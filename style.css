@@ -717,8 +717,6 @@ color: beige;
 @media (max-width: 75em){
     .page2 button{
        flex: 1 1 100%;
-       margin-left: 9em;
-       margin-right: 9em;
     }
 }
 
