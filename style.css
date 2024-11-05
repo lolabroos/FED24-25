@@ -26,9 +26,7 @@ button:active{
     color:var(--colorn);
     }
 
-:focus{
-    border: solid 3px var(--color-focus);
-}
+
 
 nav a:hover{
     color:var(--color-button);
@@ -92,6 +90,9 @@ nav button{
 
 }
 
+header h1{
+    margin-right: 2em;
+}
 
 header{
     min-height: 4em;
@@ -113,6 +114,10 @@ nav ul{
     margin: 0;
     padding: 0em;
     list-style: none;
+}
+
+nav li{
+    margin-right: 1em;
 }
 
 header a{
@@ -492,9 +497,14 @@ color: white;
     border-radius: .5em;    
 }
 
-.page2 article h3,p{
+.page2 article h3{
     color: beige;
     margin-left: .5em; 
+}
+
+.page2 p{
+    color: beige;
+    margin-left: .5em;
 }
 /* hierdoor is er op pagina 1 tekst beige */
 
@@ -578,13 +588,11 @@ color: beige;
 
 .page2 button:nth-of-type(1){
     background-color:var(--color-button-1);
-    width: 100%;
+     
 }
 .page2 button:nth-of-type(2){
     background-color:var(--color-button-2);
-    width: 100%;
 }
 .page2 button:nth-of-type(3){
     background-color:var(--color-button-3);
-    width: 100%;
 }
