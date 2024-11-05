@@ -252,6 +252,30 @@ mijn nav bar werkt nog steeds niet en het lukt niet om mijn footer goed responsi
 
 <details>
 <summary>De detailpagina</summary>
-- voor de detail pagina wil ik de articles een achtergrond kleur geven en in vlakken zetten zodat het duidelijker is wat bij elkaar hoort Ook wordt het hierdoor een mooiere pagina. 
+- voor de detail pagina wil ik de articles een achtergrond kleur geven en in vlakken zetten zodat het duidelijker is wat bij elkaar hoort. Ook wordt het hierdoor een mooiere pagina. 
+
+  <img src="readme-img/1ste-poging-lay-out-detailscherm1.png" width="375px" alt="eerste deel van eerste poging opmaak van het detailscherm">
+  <img src="readme-img/1ste-poging-lay-out-detailscherm2.png" width="375px" alt="tweede deel van eerste poging opmaak detailscherm">
+  <img src="readme-img/1ste-poging-lay-out-detailscherm-code.png" width="375px" alt="code van eerste poging">
+  
+  Bij mijn eerste poging had ik padding gebruikt om de achtergrond kleur groter te maken en het een vlak te maken. Bij de eerste 2 articles ziet het er goed uit, alleen bij de laatste 2 is er meer padding nodig om de ruimte gelijk te maken. Doordat er meer padding bij de laatste 2 articles is stond de tekst hier niet mooi meer. ik had eerst veel gepuzzeld om alle tekst met margin naar links te brengen maar na veel code zag het er nog steeds niet goed uit en wou ik het op een andere manier proberen. 
+
+  <img src="readme-img/2ste-poging-lay-out-detailscherm1.png" width="375px" alt="eerste deel van tweede poging opmaak detailscherm">
+  <img src="readme-img/2ste-poging-lay-out-detailscherm2.png" width="375px" alt="tweede deel van tweede poging opmaak detailscherm">
+  <img src="readme-img/2ste-poging-lay-out-detailscherm-code.png" width="375px" alt="code van tweede poging detailpagina">
+
+  Voor de nieuwe poging had ik het idee om de widht om 50% te zetten. op het laptop groote werkte dit heel goed alleen werkte het niet met de responsiveness.
+
+  ik had toen aan chatgpt gevraagd hoe ik het responsive kon houden hier gaf hij meerdere dingen. ik heb toen 2 regels gepakt. 
+  "flex: 1 1 calc(33.333% - 20px); /* Past zich aan om drie artikelen per rij te hebben */
+    box-sizing: border-box;"
+  ik heb de flex calc aangepast van 33.333% naar 50% zodat het 2 artikelen zijn in plaats van 3. Ook heb ik voor de eerste article de calc 100% gemaakt zodat die in zijn eentje boven aan blijft. 
+  <img src="readme-img/3de-poging-layout-detailscherm1.png" width="375px" alt="eerste foto van derde poging detailpagina">
+  <img src="readme-img/3de-poging-layout-detailscherm2.png" width="375px" alt="tweede foto van de derde poging detail pagina">
+  <img src="readme-img/3de-poging-gridcode.png" width="375px" alt="code van de derde poging grid">
+  
+  ik vond dat het te lang duurde voordat het scherm van 2 naar 1 article ging dus heb ik ook een @media toegevoegd
+
+  <img src="readme-img/3de-poging-@mediacode.png" width="375px" alt="code van de derde poging @media">
 
 </details>
