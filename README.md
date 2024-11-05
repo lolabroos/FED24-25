@@ -239,7 +239,7 @@ mijn nav bar werkt nog steeds niet en het lukt niet om mijn footer goed responsi
 </details>
 
 <details>
-  <summary> Navigatie </summary>
+  <summary> Navigatie en franschise button</summary>
   -  ik heb bij de navigaite de min-width veranderd zodat er eerder naar het hamburger menu wordt gesprongen. Ik heb ook de sluit button op dezelfde plek gezet zodat het sluiten van het menu makkelijk ging.
 
   <img src="readme-img/nieuwe-nav-width 2.png" width="375px" alt="Nieuwe nav width">
@@ -250,3 +250,8 @@ mijn nav bar werkt nog steeds niet en het lukt niet om mijn footer goed responsi
   <img src="readme-img/franschise-button-code.png" width="375px" alt="code van franschise button">
 </details>
 
+<details>
+<summary>De detailpagina</summary>
+- voor de detail pagina wil ik de articles een achtergrond kleur geven en in vlakken zetten zodat het duidelijker is wat bij elkaar hoort Ook wordt het hierdoor een mooiere pagina. 
+
+</details>
