@@ -278,4 +278,10 @@ mijn nav bar werkt nog steeds niet en het lukt niet om mijn footer goed responsi
 
   <img src="readme-img/3de-poging-@mediacode.png" width="375px" alt="code van de derde poging @media">
 
+  chatgpt link: https://chatgpt.com/share/672a2cbe-69bc-800c-8a92-7636fbe61e16
+</details>
+
+<details>
+  <summary> buttons op de 2de pagina </summary>
+  om de buttons dezelfde lengte te maken heb ik flex:1; toegevoegd. Om het meer gesponsive te maken heb ik @media toegevoegd zodat het op een mooie groote de eerst volgende button naar beneden springt.
 </details>

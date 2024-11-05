@@ -619,12 +619,7 @@ margin-left: -1em;
 /* BEGIN VAN PAGE 2 GOEDE CSS */
 /******************************/
 
-.page2 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2em;
-    justify-content: space-between;
-}
+
 
 .page2 article {
     background-color: rgb(26, 85, 17);
@@ -661,18 +656,22 @@ margin-left: -1em;
 }
 
 .page2 article:nth-of-type(4) h2, :nth-child(4) p, :nth-child(4) ul, :nth-child(4) img{
-    margin-left: -2em;
+    margin-left: -5em;
 }
 
 .page2 article:nth-of-type(5) h2, :nth-child(5) p, :nth-child(5) ul, :nth-child(5) img{
-    margin-left: 0em;
+    margin-left: -6em;
 
 } 
 
-@media (max-width: 65em) {
+@media (max-width: 80em) {
     .page2 article:nth-of-type(4) h2, :nth-child(4) p, :nth-child(4) ul, :nth-child(4) img{
         margin-left: 0em;
     }  
+    .page2 article:nth-of-type(5) h2, :nth-child(5) p, :nth-child(5) ul, :nth-child(5) img{
+        margin-left: 0em;
+    
+    } 
 }
 
 @media (max-width: 45em) {
@@ -697,12 +696,19 @@ color: beige;
 }
 
 .page2 button{
+    flex: 1§;
     margin: 1em;
     color: white;
     padding: 10em;
     padding-bottom: 1em;
     padding-top: 1em;
-    border: 1em solid whitesmoke;
+    border: .5em solid whitesmoke;
+}
+
+@media (max-width: 45em){
+    .page2 button{
+       flex: 1 1 100%;
+    }
 }
 
 .page2 section{
