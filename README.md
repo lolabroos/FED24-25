@@ -241,13 +241,12 @@ mijn nav bar werkt nog steeds niet en het lukt niet om mijn footer goed responsi
 <details>
   <summary> Navigatie </summary>
   -  ik heb bij de navigaite de min-width veranderd zodat er eerder naar het hamburger menu wordt gesprongen. Ik heb ook de sluit button op dezelfde plek gezet zodat het sluiten van het menu makkelijk ging.
-   
+
   <img src="readme-img/nieuwe-nav-width 2.png" width="375px" alt="Nieuwe nav width">
 
   <img src="readme-img/nieuwe-nav.png" width="375px" alt="Nieuwe nav">
 
   <img src="readme-img/nieuwe-nav-uitgeklapt.png" width="375px" alt="Nieuwe nav uitgeklapt">
+  <img src="readme-img/franschise-button-code.png" width="375px" alt="code van franschise button">
 </details>
 
-<details>
-  <summary>
