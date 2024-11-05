@@ -90,9 +90,6 @@ nav button{
 
 }
 
-header h1{
-    margin-right: 2em;
-}
 
 header{
     min-height: 4em;
@@ -377,7 +374,6 @@ h2 a {
 
 h2 img{
     display: flex;
-    margin-left: -5em;
     background-color:var(--color-secundaire);
     border: solid 50px var(--color-secundaire);
     
