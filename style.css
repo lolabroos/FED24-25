@@ -75,7 +75,9 @@ nav{
     background-color:var(--color-secundaire);
     position: fixed;
 }
-
+h1{
+    margin-left: 3em;
+}
 header > button{
     order: -1;
     background-color:var(--color-button);
@@ -374,6 +376,7 @@ h2 a {
 
 h2 img{
     display: flex;
+    margin-left: -5em;
     background-color:var(--color-secundaire);
     border: solid 50px var(--color-secundaire);
     
