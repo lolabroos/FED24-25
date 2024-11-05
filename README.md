@@ -308,6 +308,12 @@ ik heb daarom gekozen om margin te gebruiken omdat ik niet weet hoe ik het ander
 
 <img src="readme-img/buttons-margin9-left-right.png" width="375px" alt="buttons met een margin van 9em aan de linker en rechter zijde">
 <img src="readme-img/code-margin9em-left-right.png" width="375px" alt="code van margin aan links en rechts van de buttons">
-
 </details>
+
+<details> 
+  <summary> eindpagina's op telefoon formaat</summary>
+    - homepagina
+    <img src="" width="375px" alt="">
+
+  </details>
 
