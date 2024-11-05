@@ -315,7 +315,8 @@ Ik wou toen kiezen om margin toe te voegen maar toen ik nog een keer keek zag ik
 <details> 
   <summary> eindpagina's op telefoon formaat</summary>
     - homepagina
-    <img src="" width="375px" alt="">
+    <img src="readme-img/home-pagina.png" width="375px" alt="definitieve homepagina">
+    <img src="readme-img/detail-pagina.png" width="375px" alt="definitieve detail pagina">
 
   </details>
 
