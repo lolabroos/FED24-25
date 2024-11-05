@@ -404,8 +404,6 @@ display: grid;
 justify-self: center;
 }
 
-/* zet de article in section zodat het er ook uit ziet dat het nij elkaar hoort */
-
 .page2 h2{
     margin-left: 0em;
 }
@@ -425,6 +423,8 @@ justify-self: center;
 .page2 h2{
     color:var(--color-main);
 }
+
+/*
 .page2 article:nth-of-type(1){
     background-color: rgb(43, 129, 29);
     padding: 4em;
@@ -490,7 +490,7 @@ color: white;
     margin-bottom: .3em;
 }
 */
-
+/*
 .page2 article {
     background-color: rgb(26, 85, 17);
     padding: 2em;
@@ -506,12 +506,11 @@ color: white;
     color: beige;
     margin-left: .5em;
 }
-/* hierdoor is er op pagina 1 tekst beige */
 
 .page2 article h2{
     font-size: 3em;
     color: beige;
-    margin-bottom: .5em;    
+    margin-bottom: .5em;   
 }
 
 .page2 article p{
@@ -520,8 +519,13 @@ color: white;
 }
 
 .page2 article:nth-of-type(4){
-    padding: 5.75em;
+    padding: 7.25em;
+    margin-left: 0em;
 
+}
+
+.page2 article:nth-of-type(2){
+    margin-left: .5em;
 }
 
 .page2 article:nth-of-type(4) img{
@@ -550,10 +554,93 @@ margin-left: -1em;
 }
 
 .page2 article:nth-of-type(5){
-    padding: 7em;
-    margin-right: .7em;
+    padding: 8.35em;
+    margin-right: .5em;
 }
 
+*/
+
+/*
+
+.page2 article{
+    background-color: rgb(26, 85, 17);
+    padding: 2em;
+    border-radius: .5em;
+}
+
+.page2 article:nth-of-type(1){
+    background-color: rgb(43, 129, 29);
+    padding: 4em;
+    border-radius: .5em;
+}
+
+.page2 article:nth-of-type(1) h3 {
+    font-weight: 100;
+    color: beige;
+    margin-left: .5em;
+}
+.page2 article:nth-of-type(1) h2{
+    font-size: 5em;
+    color:beige;
+    margin-bottom: .2em;
+}
+
+.page2 article:nth-of-type(1) p {
+    margin-top: 1em;
+    margin-left: 0;
+    font-weight:bold;
+    color:beige;
+    margin-left: .5em;
+}
+
+.page2 article:nth-of-type(4){
+    width: 44%;
+    margin-left: 1em;
+}
+
+.page2 article:nth-of-type(4) h2, :nth-child(4) p, :nth-child(4) ul, :nth-child(4) img{
+    margin-left: auto;
+    display: flex;
+    justify-self: left;
+}
+
+.page2 article:nth-of-type(5) h2, :nth-child(5) p, :nth-child(5) ul, :nth-child(5) img{
+    margin-left: auto;
+}
+
+.page2 article:nth-of-type(5){
+    width: 49%;
+    margin-right: 1em;
+}
+
+*/
+
+.page2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-between;
+}
+
+.page2 article {
+    background-color: rgb(26, 85, 17);
+    padding: 2em;
+    border-radius: 0.5em;
+    flex: 1 1 calc(50% - 2em);
+    box-sizing: border-box;
+}
+
+.page2 article:nth-of-type(1) {
+    background-color: rgb(43, 129, 29);
+    padding: 4em;
+    flex: 1 1 100%;
+}
+
+@media (max-width: 480px) {
+    .page2 article {
+        flex: 1 1 100%; /* Eén artikel per rij */
+    }
+}
 
 
 .page2 img{
@@ -588,7 +675,7 @@ color: beige;
 
 .page2 button:nth-of-type(1){
     background-color:var(--color-button-1);
-     
+
 }
 .page2 button:nth-of-type(2){
     background-color:var(--color-button-2);
